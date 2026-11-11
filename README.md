@@ -13,7 +13,7 @@
 <br/>
 
 <div align="center">
-  <img src="./assets/about.svg" width="88%" alt="About me written as a C# object: full-stack developer in Vietnam working with C#, ASP.NET Core, SQL Server, Redis, Next.js, React, TypeScript, Python, FastAPI and LightGBM" />
+  <img src="./assets/about.svg?v=2" width="88%" alt="About me written as a C# object: full-stack developer in Vietnam working with C#, ASP.NET Core, SQL Server, Redis, Next.js, React, TypeScript, Python, FastAPI and LightGBM" />
 </div>
 
 <br/>
