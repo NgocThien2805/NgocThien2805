@@ -1,80 +1,89 @@
-<!-- Header banner -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Nguyen%20Ngoc%20Thien&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20ASP.NET%20Core%20%C2%B7%20Next.js%20%C2%B7%20AI%20Services&descAlignY=60&descSize=18" alt="Header banner" />
-
-<a href="https://github.com/NgocThien2805">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=36BCF7&center=true&vCenter=true&width=700&lines=Building+multi-tenant+SaaS+from+API+to+UI;Clean+Code+%7C+SOLID+%7C+Design+Patterns;ASP.NET+Core+%2B+Next.js+%2B+Python+AI;Open+to+freelance+projects" alt="Typing animation" />
-</a>
+<img src="./assets/header.svg" width="100%" alt="Nguyen Ngoc Thien - Full-Stack Developer | ASP.NET Core, Next.js, AI Services" />
 
 <br/>
 
-<a href="https://www.upwork.com/freelancers/~0115445f01650d0203">
-  <img src="https://img.shields.io/badge/Hire%20me%20on-Upwork-14a800?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork" />
-</a>
-<img src="https://komarev.com/ghpvc/?username=NgocThien2805&label=Profile%20views&color=2c5364&style=for-the-badge" alt="Profile views" />
+<a href="https://www.upwork.com/freelancers/~0115445f01650d0203"><img src="https://img.shields.io/badge/Hire_me-Upwork-14a800?style=for-the-badge&logo=upwork&logoColor=white&labelColor=0b1020" alt="Hire me on Upwork" /></a>
+<a href="#-featured-project--kovia"><img src="https://img.shields.io/badge/Featured-Kovia_WMS-38bdf8?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=0b1020" alt="Featured project" /></a>
+<img src="https://komarev.com/ghpvc/?username=NgocThien2805&label=Profile+views&color=a78bfa&style=for-the-badge&labelColor=0b1020" alt="Profile views" />
 
 </div>
 
----
+<br/>
 
-## 👋 About me
+<div align="center">
+  <img src="./assets/about.svg" width="88%" alt="About me written as a C# object: full-stack developer in Vietnam working with C#, ASP.NET Core, SQL Server, Redis, Next.js, React, TypeScript, Python, FastAPI and LightGBM" />
+</div>
 
-I'm **Thien**, a full-stack web developer from Vietnam with 3+ years of experience building web applications.
-I like turning real business problems into clean, maintainable software, and I care about **why** a design works, not only how to write it.
+<br/>
 
-- 🏗️ Backend with **C# / ASP.NET Core** (Clean Architecture, CQRS, REST APIs, role-based permissions)
-- 🎨 Frontend with **Next.js, React and TypeScript**
-- 🤖 Practical AI services with **Python / FastAPI** (demand forecasting, anomaly detection, OCR, assistants)
-- 📚 Also working with **Java** and **C++**, and learning Spring Boot in depth
-- 💼 Available for freelance work, see my [Upwork profile](https://www.upwork.com/freelancers/~0115445f01650d0203)
+## ⚡ What I do
 
-## 🛠️ Tech stack
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🏗️ Backend
+APIs in **C# / ASP.NET Core** with Clean Architecture, CQRS, role-based permissions, background jobs and **SQL Server**.
+
+</td>
+<td width="33%" valign="top">
+
+### 🎨 Frontend
+Fast, typed UIs with **Next.js, React and TypeScript**, plus cross-platform staff apps with **Expo**.
+
+</td>
+<td width="33%" valign="top">
+
+### 🤖 AI services
+Practical ML with **Python / FastAPI**: demand forecasting, anomaly detection, document OCR and assistants.
+
+</td>
+</tr>
+</table>
+
+## 🧰 Tech stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,cpp,java,py,fastapi&perline=6" alt="Backend languages" />
+<img src="https://skillicons.dev/icons?i=cs,dotnet,java,cpp,py,fastapi&theme=dark" alt="C#, .NET, Java, C++, Python, FastAPI" />
 <br/>
-<img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,html,css&perline=7" alt="Frontend" />
+<img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,redis&theme=dark" alt="Next.js, React, TypeScript, JavaScript, Tailwind, Redis" />
 <br/>
-<img src="https://skillicons.dev/icons?i=redis,git,github,vscode,visualstudio&perline=5" alt="Tools" />
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,visualstudio&theme=dark" alt="Git, GitHub, GitHub Actions, VS Code, Visual Studio" />
+
+</div>
+
+## 🚀 Featured project · Kovia
+
+<div align="center">
+  <img src="./assets/kovia.svg" width="100%" alt="Kovia system overview: web and mobile apps call the ASP.NET Core API, which uses SQL Server, Redis and a Python AI service" />
+</div>
+
+**Kovia** is a multi-tenant warehouse management platform built as a team project: inbound receiving, outbound, transfers, returns, stock counts and inventory tracking, with role- and warehouse-based permissions.
+I worked **full-stack** across the API, the web app and the AI service.
+
+🔗 Public repos: [Kovia Frontend Web](https://github.com/sswms-project/Kovia-Frontend-Web) · [Kovia Frontend Mobile](https://github.com/sswms-project/Kovia-Frontend-Mobile)
+<sub>The backend and AI service repositories are private. Happy to walk through the architecture on request.</sub>
+
+## 📈 Activity
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=NgocThien2805&hide_border=true&background=0B1020&ring=38BDF8&fire=A78BFA&currStreakNum=E2E8F0&currStreakLabel=A78BFA&sideNums=38BDF8&sideLabels=94A3B8&dates=64748B&stroke=1E293B" alt="GitHub streak" />
+
 <br/><br/>
-<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
-<img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
-<img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo" />
-<img src="https://img.shields.io/badge/LightGBM-02A676?style=for-the-badge" alt="LightGBM" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NgocThien2805/NgocThien2805/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NgocThien2805/NgocThien2805/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/NgocThien2805/NgocThien2805/output/github-snake-dark.svg" alt="Snake eating my contribution graph" />
+</picture>
 
 </div>
 
-## 🚀 Featured project: Kovia
-
-**Kovia** is a multi-tenant warehouse management platform (team project). It covers inbound receiving, outbound, transfers, returns, stock counts and inventory tracking, with role- and warehouse-based permissions.
-I worked full-stack across the API, the web app and the AI service.
-
-| Layer | What it is | Tech |
-| --- | --- | --- |
-| API | Multi-tenant backend with Clean Architecture, CQRS, background jobs, RBAC | ASP.NET Core, EF Core, SQL Server, Redis, MediatR |
-| Web | Management app for warehouse owners and managers | Next.js, React, TypeScript, TanStack Query, Tailwind |
-| Mobile | App for warehouse staff workflows | Expo, React Native |
-| AI | Demand forecasting, stock anomaly detection, document OCR, business assistant | Python, FastAPI, LightGBM |
-
-<div align="center">
-
-🔗 Public repositories: <a href="https://github.com/sswms-project/Kovia-Frontend-Web">Kovia Frontend Web</a> · <a href="https://github.com/sswms-project/Kovia-Frontend-Mobile">Kovia Frontend Mobile</a>
-
-</div>
-
-> The backend and AI service repositories are private. Happy to walk through the architecture on request.
-
-## 📊 GitHub stats
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=NgocThien2805&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-
-</div>
-
-## 🎯 Currently
+## 🎯 Right now
 
 - 🔭 Building production-style full-stack projects and AI-powered features
 - 🌱 Going deeper into Java and Spring Boot
@@ -84,13 +93,7 @@ I worked full-stack across the API, the web app and the AI service.
 
 <br/>
 
-<a href="https://www.upwork.com/freelancers/~0115445f01650d0203">
-  <img src="https://img.shields.io/badge/Upwork-Let's%20work%20together-14a800?style=flat-square&logo=upwork&logoColor=white" alt="Upwork" />
-</a>
-<a href="https://github.com/NgocThien2805">
-  <img src="https://img.shields.io/badge/GitHub-NgocThien2805-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-</a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" alt="Footer" />
+<a href="https://www.upwork.com/freelancers/~0115445f01650d0203"><img src="https://img.shields.io/badge/Let's_build_something-14a800?style=flat-square&logo=upwork&logoColor=white" alt="Upwork" /></a>
+<a href="https://github.com/NgocThien2805"><img src="https://img.shields.io/badge/NgocThien2805-0b1020?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 
 </div>
