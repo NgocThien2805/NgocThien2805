@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-label="About me as a C# object">
+  <style>
+    .code { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; font-size: 17px; fill: #e2e8f0; white-space: pre; }
+    .l { opacity: 0; animation: in 0.45s ease-out forwards; }
+    .kw { fill: #c084fc; }
+    .ty { fill: #38bdf8; }
+    .pr { fill: #93c5fd; }
+    .st { fill: #86efac; }
+    .cm { fill: #64748b; font-style: italic; }
+    .pu { fill: #94a3b8; }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes in { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: translateX(0); } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="438" rx="16" fill="#0b1020" stroke="url(#border)" stroke-width="1.5"/>
+  <path d="M1 17a16 16 0 0 1 16-16h866a16 16 0 0 1 16 16v29H1z" fill="#111827"/>
+  <circle cx="28" cy="24" r="6.5" fill="#ff5f57"/>
+  <circle cx="50" cy="24" r="6.5" fill="#febc2e"/>
+  <circle cx="72" cy="24" r="6.5" fill="#28c840"/>
+  <text x="450" y="29" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="13" fill="#94a3b8">NgocThien2805 — about-me.cs</text>
+
+  <g class="code" xml:space="preserve">
+    <text x="32" y="86" class="l" style="animation-delay:0.2s"><tspan class="cm">// Hi there! This is me, written the way I like to write code.</tspan></text>
+    <text x="32" y="116" class="l" style="animation-delay:0.5s"><tspan class="kw">var</tspan> me = <tspan class="kw">new</tspan> <tspan class="ty">Developer</tspan></text>
+    <text x="32" y="144" class="l" style="animation-delay:0.75s"><tspan class="pu">{</tspan></text>
+    <text x="32" y="172" class="l" style="animation-delay:1.0s">    <tspan class="pr">Name</tspan>     = <tspan class="st">"Nguyen Ngoc Thien"</tspan>,</text>
+    <text x="32" y="200" class="l" style="animation-delay:1.25s">    <tspan class="pr">Role</tspan>     = <tspan class="st">"Full-Stack Developer"</tspan>,</text>
+    <text x="32" y="228" class="l" style="animation-delay:1.5s">    <tspan class="pr">Location</tspan> = <tspan class="st">"Vietnam (UTC+7)"</tspan>,</text>
+    <text x="32" y="256" class="l" style="animation-delay:1.75s">    <tspan class="pr">Backend</tspan>  = [<tspan class="st">"C#"</tspan>, <tspan class="st">"ASP.NET Core"</tspan>, <tspan class="st">"SQL Server"</tspan>, <tspan class="st">"Redis"</tspan>],</text>
+    <text x="32" y="284" class="l" style="animation-delay:2.0s">    <tspan class="pr">Frontend</tspan> = [<tspan class="st">"Next.js"</tspan>, <tspan class="st">"React"</tspan>, <tspan class="st">"TypeScript"</tspan>],</text>
+    <text x="32" y="312" class="l" style="animation-delay:2.25s">    <tspan class="pr">AI</tspan>       = [<tspan class="st">"Python"</tspan>, <tspan class="st">"FastAPI"</tspan>, <tspan class="st">"LightGBM"</tspan>],</text>
+    <text x="32" y="340" class="l" style="animation-delay:2.5s">    <tspan class="pr">Mindset</tspan>  = <tspan class="st">"Clean Architecture · SOLID · Design Patterns"</tspan>,</text>
+    <text x="32" y="368" class="l" style="animation-delay:2.75s">    <tspan class="pr">OpenTo</tspan>   = <tspan class="st">"Freelance projects"</tspan></text>
+    <text x="32" y="396" class="l" style="animation-delay:3.0s"><tspan class="pu">};</tspan></text>
+  </g>
+  <rect x="58" y="381" width="10" height="20" fill="#38bdf8" class="cursor l" style="animation: in 0.3s 3.2s forwards, blink 1s 3.5s step-end infinite;"/>
+</svg>
