@@ -60,12 +60,7 @@ I worked full-stack across the API, the web app and the AI service.
 
 <div align="center">
 
-<a href="https://github.com/sswms-project/Kovia-Frontend-Web">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sswms-project&repo=Kovia-Frontend-Web&theme=tokyonight&hide_border=true" alt="Kovia Frontend Web" />
-</a>
-<a href="https://github.com/sswms-project/Kovia-Frontend-Mobile">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sswms-project&repo=Kovia-Frontend-Mobile&theme=tokyonight&hide_border=true" alt="Kovia Frontend Mobile" />
-</a>
+🔗 Public repositories: <a href="https://github.com/sswms-project/Kovia-Frontend-Web">Kovia Frontend Web</a> · <a href="https://github.com/sswms-project/Kovia-Frontend-Mobile">Kovia Frontend Mobile</a>
 
 </div>
 
@@ -75,12 +70,7 @@ I worked full-stack across the API, the web app and the AI service.
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=NgocThien2805&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NgocThien2805&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-<br/>
 <img src="https://streak-stats.demolab.com?user=NgocThien2805&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-<br/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NgocThien2805&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
 
 </div>
 
