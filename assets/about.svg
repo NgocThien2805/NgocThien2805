@@ -28,17 +28,17 @@
   <text x="450" y="29" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="13" fill="#94a3b8">NgocThien2805 — about-me.cs</text>
 
   <g class="code" xml:space="preserve">
-    <text x="32" y="86" class="l" style="animation-delay:0.2s"><tspan class="cm">//&#160;Hi&#160;there!&#160;This&#160;is&#160;me,&#160;written&#160;the&#160;way&#160;I&#160;like&#160;to&#160;write&#160;code.</tspan></text>
-    <text x="32" y="116" class="l" style="animation-delay:0.5s"><tspan class="kw">var</tspan>&#160;me&#160;=&#160;<tspan class="kw">new</tspan>&#160;<tspan class="ty">Developer</tspan></text>
+    <text x="32" y="86" class="l" style="animation-delay:0.2s"><tspan class="cm">// Hi there! This is me, written the way I like to write code.</tspan></text>
+    <text x="32" y="116" class="l" style="animation-delay:0.5s"><tspan class="kw">var</tspan> me = <tspan class="kw">new</tspan> <tspan class="ty">Developer</tspan></text>
     <text x="32" y="144" class="l" style="animation-delay:0.75s"><tspan class="pu">{</tspan></text>
-    <text x="32" y="172" class="l" style="animation-delay:1.0s">&#160;&#160;&#160;&#160;<tspan class="pr">Name</tspan>&#160;&#160;&#160;&#160;&#160;=&#160;<tspan class="st">"Nguyen&#160;Ngoc&#160;Thien"</tspan>,</text>
-    <text x="32" y="200" class="l" style="animation-delay:1.25s">&#160;&#160;&#160;&#160;<tspan class="pr">Role</tspan>&#160;&#160;&#160;&#160;&#160;=&#160;<tspan class="st">"Full-Stack&#160;Developer"</tspan>,</text>
-    <text x="32" y="228" class="l" style="animation-delay:1.5s">&#160;&#160;&#160;&#160;<tspan class="pr">Location</tspan>&#160;=&#160;<tspan class="st">"Vietnam&#160;(UTC+7)"</tspan>,</text>
-    <text x="32" y="256" class="l" style="animation-delay:1.75s">&#160;&#160;&#160;&#160;<tspan class="pr">Backend</tspan>&#160;&#160;=&#160;[<tspan class="st">"C#"</tspan>,&#160;<tspan class="st">"ASP.NET&#160;Core"</tspan>,&#160;<tspan class="st">"SQL&#160;Server"</tspan>,&#160;<tspan class="st">"Redis"</tspan>],</text>
-    <text x="32" y="284" class="l" style="animation-delay:2.0s">&#160;&#160;&#160;&#160;<tspan class="pr">Frontend</tspan>&#160;=&#160;[<tspan class="st">"Next.js"</tspan>,&#160;<tspan class="st">"React"</tspan>,&#160;<tspan class="st">"TypeScript"</tspan>],</text>
-    <text x="32" y="312" class="l" style="animation-delay:2.25s">&#160;&#160;&#160;&#160;<tspan class="pr">AI</tspan>&#160;&#160;&#160;&#160;&#160;&#160;&#160;=&#160;[<tspan class="st">"Python"</tspan>,&#160;<tspan class="st">"FastAPI"</tspan>,&#160;<tspan class="st">"LightGBM"</tspan>],</text>
-    <text x="32" y="340" class="l" style="animation-delay:2.5s">&#160;&#160;&#160;&#160;<tspan class="pr">Mindset</tspan>&#160;&#160;=&#160;<tspan class="st">"Clean&#160;Architecture&#160;·&#160;SOLID&#160;·&#160;Design&#160;Patterns"</tspan>,</text>
-    <text x="32" y="368" class="l" style="animation-delay:2.75s">&#160;&#160;&#160;&#160;<tspan class="pr">OpenTo</tspan>&#160;&#160;&#160;=&#160;<tspan class="st">"Freelance&#160;projects"</tspan></text>
+    <text x="32" y="172" class="l" style="animation-delay:1.0s">    <tspan class="pr">Name</tspan>     = <tspan class="st">"Nguyen Ngoc Thien"</tspan>,</text>
+    <text x="32" y="200" class="l" style="animation-delay:1.25s">    <tspan class="pr">Role</tspan>     = <tspan class="st">"Full-Stack Developer"</tspan>,</text>
+    <text x="32" y="228" class="l" style="animation-delay:1.5s">    <tspan class="pr">Location</tspan> = <tspan class="st">"Vietnam (UTC+7)"</tspan>,</text>
+    <text x="32" y="256" class="l" style="animation-delay:1.75s">    <tspan class="pr">Backend</tspan>  = [<tspan class="st">"C#"</tspan>, <tspan class="st">"ASP.NET Core"</tspan>, <tspan class="st">"SQL Server"</tspan>, <tspan class="st">"Redis"</tspan>],</text>
+    <text x="32" y="284" class="l" style="animation-delay:2.0s">    <tspan class="pr">Frontend</tspan> = [<tspan class="st">"Next.js"</tspan>, <tspan class="st">"React"</tspan>, <tspan class="st">"TypeScript"</tspan>],</text>
+    <text x="32" y="312" class="l" style="animation-delay:2.25s">    <tspan class="pr">AI</tspan>       = [<tspan class="st">"Python"</tspan>, <tspan class="st">"FastAPI"</tspan>, <tspan class="st">"LightGBM"</tspan>],</text>
+    <text x="32" y="340" class="l" style="animation-delay:2.5s">    <tspan class="pr">Mindset</tspan>  = <tspan class="st">"Clean Architecture · SOLID · Design Patterns"</tspan>,</text>
+    <text x="32" y="368" class="l" style="animation-delay:2.75s">    <tspan class="pr">OpenTo</tspan>   = <tspan class="st">"Freelance projects"</tspan></text>
     <text x="32" y="396" class="l" style="animation-delay:3.0s"><tspan class="pu">};</tspan></text>
   </g>
   <rect x="58" y="381" width="10" height="20" fill="#38bdf8" class="cursor l" style="animation: in 0.3s 3.2s forwards, blink 1s 3.5s step-end infinite;"/>
