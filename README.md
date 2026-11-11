@@ -13,7 +13,7 @@
 <br/>
 
 <div align="center">
-  <img src="./assets/about.svg?v=2" width="88%" alt="About me written as a C# object: full-stack developer in Vietnam working with C#, ASP.NET Core, SQL Server, Redis, Next.js, React, TypeScript, Python, FastAPI and LightGBM" />
+  <img src="./assets/about.svg" width="88%" alt="About me written as a C# object: full-stack developer in Vietnam working with C#, ASP.NET Core, SQL Server, Redis, Next.js, React, TypeScript, Python, FastAPI and LightGBM" />
 </div>
 
 <br/>
@@ -65,6 +65,7 @@ Practical ML with **Python / FastAPI**: demand forecasting, anomaly detection, d
 I worked **full-stack** across the API, the web app and the AI service.
 
 🔗 Public repos: [Kovia Frontend Web](https://github.com/sswms-project/Kovia-Frontend-Web) · [Kovia Frontend Mobile](https://github.com/sswms-project/Kovia-Frontend-Mobile)
+
 <sub>The backend and AI service repositories are private. Happy to walk through the architecture on request.</sub>
 
 ## 📈 Activity
