@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Nguyen Ngoc Thien - Full-Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b18"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#a78bfa;#34d399;#38bdf8" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#a78bfa">
+        <animate attributeName="stop-color" values="#a78bfa;#34d399;#38bdf8;#a78bfa" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#34d399">
+        <animate attributeName="stop-color" values="#34d399;#38bdf8;#a78bfa;#34d399" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+    <radialGradient id="fade" cx="50%" cy="50%" r="70%">
+      <stop offset="40%" stop-color="#070b18" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070b18" stop-opacity="0.9"/>
+    </radialGradient>
+    <clipPath id="clip">
+      <rect width="1200" height="320" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+
+    <!-- floating glow blobs -->
+    <g filter="url(#blur)" opacity="0.6">
+      <circle cx="200" cy="80" r="140" fill="#0ea5e9">
+        <animate attributeName="cx" values="200;430;200" dur="14s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="80;230;80" dur="11s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1000" cy="240" r="160" fill="#8b5cf6">
+        <animate attributeName="cx" values="1000;770;1000" dur="16s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="240;90;240" dur="13s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="650" cy="310" r="110" fill="#10b981">
+        <animate attributeName="cx" values="650;520;760;650" dur="18s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect width="1200" height="320" fill="url(#fade)"/>
+
+    <!-- status pill -->
+    <g transform="translate(600 74)">
+      <rect x="-145" y="-18" width="290" height="36" rx="18" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.16"/>
+      <circle cx="-121" cy="0" r="9" fill="#34d399" opacity="0.25">
+        <animate attributeName="r" values="5;11;5" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.45;0;0.45" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-121" cy="0" r="5" fill="#34d399"/>
+      <text x="10" y="5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#cbd5e1">Available for freelance work</text>
+    </g>
+
+    <!-- name -->
+    <text x="600" y="168" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="-1.5" fill="url(#name)">Nguyen Ngoc Thien</text>
+
+    <text x="600" y="212" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#94a3b8">Full-Stack Developer  ·  ASP.NET Core  ·  Next.js  ·  AI Services</text>
+
+    <!-- rotating taglines -->
+    <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="18" text-anchor="middle">
+      <text x="600" y="264" fill="#38bdf8" opacity="0">
+        &gt; building multi-tenant SaaS from API to UI_
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.3;0.34;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+      </text>
+      <text x="600" y="264" fill="#a78bfa" opacity="0">
+        &gt; clean code · SOLID · design patterns_
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.3;0.34;1" dur="9s" begin="3s" repeatCount="indefinite"/>
+      </text>
+      <text x="600" y="264" fill="#34d399" opacity="0">
+        &gt; shipping AI features with Python + FastAPI_
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.3;0.34;1" dur="9s" begin="6s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="1199" height="319" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  </g>
+</svg>
