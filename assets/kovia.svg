@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" role="img" aria-label="Kovia system overview: web and mobile apps call the ASP.NET Core API, which uses SQL Server, Redis and a Python AI service">
+  <style>
+    .t { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .title { font-size: 15px; font-weight: 700; fill: #e2e8f0; }
+    .sub { font-size: 12.5px; fill: #94a3b8; }
+    .flow { fill: none; stroke-width: 2; stroke-dasharray: 6 8; animation: dash 1.2s linear infinite; }
+    .base { fill: none; stroke: #334155; stroke-width: 2; }
+    @keyframes dash { to { stroke-dashoffset: -28; } }
+  </style>
+  <defs>
+    <linearGradient id="nodeBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="apiFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0c4a6e"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="378" rx="16" fill="#0b1020" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="32" y="40" class="t" font-size="13" font-weight="700" letter-spacing="2" fill="#64748b">KOVIA · SYSTEM OVERVIEW</text>
+  <text x="868" y="40" class="t" font-size="12.5" text-anchor="end" fill="#64748b">multi-tenant warehouse management</text>
+
+  <g transform="translate(0 30)">
+    <!-- connections -->
+    <path class="base" d="M230 90 C 300 90, 290 180, 350 180"/>
+    <path class="base" d="M230 270 C 300 270, 290 180, 350 180"/>
+    <path class="base" d="M550 180 C 610 180, 600 90, 670 90"/>
+    <path class="base" d="M550 180 C 610 180, 600 270, 670 270"/>
+    <path class="flow" stroke="#38bdf8" d="M230 90 C 300 90, 290 180, 350 180"/>
+    <path class="flow" stroke="#38bdf8" d="M230 270 C 300 270, 290 180, 350 180"/>
+    <path class="flow" stroke="#a78bfa" d="M550 180 C 610 180, 600 90, 670 90"/>
+    <path class="flow" stroke="#34d399" d="M550 180 C 610 180, 600 270, 670 270"/>
+
+    <!-- travelling packets -->
+    <circle r="4.5" fill="#38bdf8"><animateMotion dur="2.2s" repeatCount="indefinite" path="M230 90 C 300 90, 290 180, 350 180"/></circle>
+    <circle r="4.5" fill="#38bdf8"><animateMotion dur="2.2s" repeatCount="indefinite" path="M230 270 C 300 270, 290 180, 350 180"/></circle>
+    <circle r="4.5" fill="#a78bfa"><animateMotion dur="2s" repeatCount="indefinite" path="M550 180 C 610 180, 600 90, 670 90"/></circle>
+    <circle r="4.5" fill="#34d399"><animateMotion dur="2.6s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear" path="M550 180 C 610 180, 600 270, 670 270"/></circle>
+
+    <!-- client nodes -->
+    <g class="t">
+      <rect x="30" y="58" width="200" height="64" rx="12" fill="#0f172a" stroke="url(#nodeBorder)"/>
+      <text x="52" y="86" class="title">Web App</text>
+      <text x="52" y="106" class="sub">Next.js · React · TypeScript</text>
+
+      <rect x="30" y="238" width="200" height="64" rx="12" fill="#0f172a" stroke="url(#nodeBorder)"/>
+      <text x="52" y="266" class="title">Staff Mobile App</text>
+      <text x="52" y="286" class="sub">Expo · React Native</text>
+    </g>
+
+    <!-- API node with pulse -->
+    <rect x="350" y="140" width="200" height="80" rx="14" fill="#38bdf8" opacity="0.35" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.15;0.45;0.15" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <g class="t">
+      <rect x="350" y="140" width="200" height="80" rx="14" fill="url(#apiFill)" stroke="#38bdf8" stroke-opacity="0.9"/>
+      <text x="450" y="173" text-anchor="middle" class="title" font-size="16">Core API</text>
+      <text x="450" y="194" text-anchor="middle" class="sub">ASP.NET Core · CQRS · RBAC</text>
+    </g>
+
+    <!-- backend nodes -->
+    <g class="t">
+      <rect x="670" y="58" width="200" height="64" rx="12" fill="#0f172a" stroke="#a78bfa" stroke-opacity="0.7"/>
+      <text x="692" y="86" class="title">Data Layer</text>
+      <text x="692" y="106" class="sub">SQL Server · Redis</text>
+
+      <rect x="670" y="238" width="200" height="64" rx="12" fill="#0f172a" stroke="#34d399" stroke-opacity="0.7"/>
+      <text x="692" y="266" class="title">AI Service</text>
+      <text x="692" y="286" class="sub">FastAPI · LightGBM · OCR</text>
+    </g>
+  </g>
+</svg>
